@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+*{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cta-head{
+    background-image: url(../images/cta-head/banner-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cta-logo{
+    width: 5rem;
+}
+
+.cta-access a{
+ color: #ffffff;
+ font-size: 1.5rem;
+ font-weight: 300;
+}
+
+.cta-description{
+    color: #ffffff;
+}
+.cta-description h1{
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+
+.cta-description p{
+    font-size: 1.25rem;
+}
+.cta-button{
+    background-color: #00FFAD;
+}
+.cta-button:hover {
+    color: none;
+    background-color:#00FFAD;
+    border-color: #00FFAD;
+}
+
+.cta-button .btn{
+ font-weight: bolder;
+}
+
+.smart-heading,.angle-heading,.pricing-check{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.learn-more-button{
+    color: #ffffff;
+    background-color: #192440;
+}
+
+.learn-more-button:hover {
+    color: #ffffff;
+    background-color:#192440;
+    border-color: #192440;
+}
+
+.angle-section{
+ background-image: linear-gradient(168deg, white 40%,#00FFAD 40%);
+}
+
+.feature-image img{
+   object-fit: contain;
+}
+
+.highlight-price{
+    background-color: #192440;
+}
+
+.pricing-heading{
+    font-size: 1.5rem;
+}
+
+.pricing-month{
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+
+.list-pricing{
+    margin-left: -1.5rem;
+}
+
+.client-section{
+    background-color: #eceeef;
+}
+
+.client-image{
+    width: 10rem;
+    height: 5rem;
+    
+}
+
+.client-image img{
+    object-fit: contain;
+}
+
+@media (width<=992px){
+    .client-image{
+        width: 7rem;
+        height: 3rem;
+        
+    }
+    
+    .client-image img{
+        object-fit: contain;
+    }
+}
+@media (width<768px){
+    .client-image{
+        width: 100%;
+        height: 5rem;
+        margin-top: 2rem;
+    }
+    
+    .client-image img{
+        object-fit: contain;
+    }
+}
+
+.check-btn{
+    background-color: #00FFAD;
+}
+.check-btn:hover {
+    color: none;
+    background-color:#00FFAD;
+    border-color: #00FFAD;
+}
+
+.check-btn-no-bg{
+    border: 2px solid;
+}
+
+.check-btn-no-bg:hover {
+    color: #ffffff;
+    background-color:#192440;
+    border-color: #00FFAD;
+}
+
+.main-footer{
+    background-image: url(../images/footer/contact-bk.jpg);
+}
+
+.footer-contact-us h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.footer-form form{
+    color: #00FFAD;
+}
+
+.input-border{
+    background-color: transparent;
+    border: 1px solid #00FFAD;
+}
+
+.extraspace{
+    height: 7rem;
+}
+
+.footer-btn{
+    color: #000000;
+    font-weight: 500;
+    background-color: #00FFAD;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.copyright-section{
+    background-color: #192440;
+}
+
+
+
+.fa-facebook-f,.fa-twitter,.fa-instagram,.fa-linkedin-in{
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    padding-top: 6px;
+}
+
+.social-block div{
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
